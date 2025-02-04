@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "679fbedec1392e700f145375"
+  },
+  "name": "Samsung A123",
+  "price": 2323.22,
+  "createAt": {
+    "$date": "2025-02-02T05:00:00.000Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fbedec1392e700f145376"
+  },
+  "name": "Samsung A15",
+  "price": 2423.22,
+  "createAt": {
+    "$date": "2025-02-02T18:52:14.043Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db04"
+  },
+  "name": "iPhone 13",
+  "price": 3999.99,
+  "createAt": {
+    "$date": "2025-01-15T14:30:00.000Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db05"
+  },
+  "name": "Xiaomi Redmi Note 11",
+  "price": 1899.5,
+  "createAt": {
+    "$date": "2025-01-20T10:15:45.123Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db06"
+  },
+  "name": "Huawei P50 Pro",
+  "price": 2799,
+  "createAt": {
+    "$date": "2025-01-25T12:00:00.000Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db07"
+  },
+  "name": "Motorola Edge 30",
+  "price": 1990.99,
+  "createAt": {
+    "$date": "2025-02-01T09:45:30.567Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db08"
+  },
+  "name": "Google Pixel 7",
+  "price": 3499,
+  "createAt": {
+    "$date": "2025-01-28T08:20:15.890Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db09"
+  },
+  "name": "Realme GT Neo 3",
+  "price": 2099.8,
+  "createAt": {
+    "$date": "2025-01-30T13:10:05.432Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+},
+{
+  "_id": {
+    "$oid": "679fc85ffdf7c8eff565db0a"
+  },
+  "name": "Oppo Reno 8",
+  "price": 2499.99,
+  "createAt": {
+    "$date": "2025-01-18T11:55:00.000Z"
+  },
+  "_class": "co.spring_webflux.entity.ProductEntity",
+  "categoryId": {
+    "$oid": "679ff9ba326374081844da73"
+  }
+}]
