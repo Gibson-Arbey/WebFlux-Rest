@@ -21,6 +21,11 @@ public class RouterFunctionConfig {
     @Bean
     public RouterFunction<ServerResponse> router() {
         return route(GET("/api/v2/product").or(GET("/api/v3/product")),
-                productHandler::findAll);
+                productHandler::findAll).andRoute(GET("/api/v2/product/{id}"), productHandler::findById)
+                .andRoute(POST("/api/v2/product"), productHandler::create)
+                .andRoute(PUT("/api/v2/product/{id}"), productHandler::create)
+                .andRoute(DELETE("/api/v2/product/{id}"), productHandler::delete)
+                .andRoute(PUT("/api/v2/product/upload/{id}"), productHandler::uploadPhoto)
+                .andRoute(POST("/api/v2/product/photo"), productHandler::createProductWithPhoto);
     }
 }
